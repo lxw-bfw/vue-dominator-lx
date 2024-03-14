@@ -12,5 +12,8 @@ const install = (app: App) => {
   });
 };
 
-// hooks导出 + vue插件导出
-export { useObserveResize, install as dominator };
+// hooks导出
+export { useObserveResize };
+
+// vue插件导出
+export { install as dominator };

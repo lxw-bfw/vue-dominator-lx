@@ -1,12 +1,12 @@
 import { App, Directive } from "vue";
 
-declare module "dominator-lx" {
-  export function useObserveResize(): (
+declare module "vue-dominator" {
+  export const useObserveResize: (
     el: HTMLElement,
     callback: (cr: DOMRectReadOnly, resize: ResizeObserver) => void
   ) => void;
 
-  export function install(app: App): void;
+  export const dominator: (app: App) => void;
 
   export const directiveCollection: {
     [key: string]: Directive;

@@ -2,7 +2,7 @@
   "name": "vue-dominator",
   "description": "涉及dom元素监听、信息获取和位移操作等系列功能，可以注册为vue插件，也可以导出hooks使用",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.4",
   "type": "module",
   "main": "./dist/vue-dominator.umd.cjs",
   "module": "./dist/vue-dominator.js",
@@ -19,12 +19,6 @@
     "index.d.ts",
     "README.md"
   ],
-  "exports": {
-    ".": {
-      "import": "./dist/vue-dominator.js",
-      "require": "./dist/vue-dominator.umd.cjs"
-    }
-  },
   "dependencies": {
     "vue": "^3.4.19"
   },
