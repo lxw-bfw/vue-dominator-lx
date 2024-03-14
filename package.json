@@ -1,11 +1,11 @@
 {
-  "name": "dominator-lx",
+  "name": "vue-dominator",
   "description": "涉及dom元素监听、信息获取和位移操作等系列功能，可以注册为vue插件，也可以导出hooks使用",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
-  "main": "./dist/dominator-lx.umd.cjs",
-  "module": "./dist/dominator-lx.js",
+  "main": "./dist/vue-dominator.umd.cjs",
+  "module": "./dist/vue-dominator.js",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
@@ -21,8 +21,8 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/dominator-lx.js",
-      "require": "./dist/dominator-lx.umd.cjs"
+      "import": "./dist/vue-dominator.js",
+      "require": "./dist/vue-dominator.umd.cjs"
     }
   },
   "dependencies": {
@@ -50,7 +50,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/react.git"
+    "url": "https://github.com/lxw-bfw/vue-dominator-lx"
   },
   "license": "MIT",
   "author": "lxw"
